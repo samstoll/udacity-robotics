@@ -971,10 +971,10 @@
         </link>
       </model>
       <model name='euro_pallet'>
-        <pose frame=''>0.811983 0.256334 0.072 0 0 -0.013016</pose>
+        <pose frame=''>1.781430 -2.176590 0.072 0 0 -0.013016</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.811983 0.256334 0.072 0 0 -0.013016</pose>
+          <pose frame=''>1.781430 -2.176590 0.072 0 0 -0.013016</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>-2.37803 -0.03539 11.3107 -2.88535 -1.5409 3.14159</acceleration>
           <wrench>-47.5607 -0.707804 226.215 0 -0 0</wrench>
