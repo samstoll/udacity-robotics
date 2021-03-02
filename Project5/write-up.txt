@@ -1,0 +1,14 @@
+Packages used:
+- https://github.com/ros-perception/slam_gmapping
+- https://github.com/turtlebot/turtlebot
+- https://github.com/turtlebot/turtlebot_interactions
+- https://github.com/turtlebot/turtlebot_simulator
+
+Scripts (in Project5/catkin_ws/src/scripts):
+- test_slam.sh: run SLAM to create a map of the environment
+- test_navigation.sh: Use AMCL to localize within the map created by SLAM
+- home_service.sh: Adds a marker at the pickup zone, the robot navigates there, the pickup marker is hidden and the robot waits 5 seconds to simulate a pickup. Then the robot navigates to the dropoff location and the marker appears there when it arrives.
+
+Usage notes:
+To use the SLAM-generated map, the map_file parameter to the amcl launch file in each relevant script must be updated to reflect the location of the map. A SLAM generated map is located in the Project5/cakin_ws/src/map/ sub-directory.
+
